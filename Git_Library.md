@@ -33,9 +33,11 @@ editor:
     wrap: 72
 ---
 
-```{r setup, eval=FALSE}
 
-```
+::: {.cell}
+
+:::
+
 
 ![](images/TUL_Logos_narrow.png){fig-align="center"}
 
@@ -525,7 +527,10 @@ Now that I have pushed my commit up to GitHub, you will need to pull my
 changes down so that you have the most recent commit. **This completes
 the basic GitHub workflow:**
 
-```{bash, eval = FALSE}
+
+::: {.cell}
+
+```{.bash .cell-code}
 # Updates your repo to the most recent version.
 $ `git pull origin master` 
 
@@ -543,6 +548,8 @@ $ `git commit -m "commit message"`
 
 $ `git push origin master` 
 ```
+:::
+
 
 ::: callout-note
 <font size="4">Keep in mind that he "master" branch name can differ
